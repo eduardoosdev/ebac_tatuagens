@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ebac TATTOOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>  
+</style>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ebac TATTOOS</h1>
+        </div>
+        <div class="botao-menu">
+            <button>Abrir menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Tatuagens
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Vintage</a>
+                        </li>
+                        <li>
+                            <a href="#">Realistas</a>
+                        </li>
+                        <li>
+                            <a href="#">Cartoon</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Artes
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Desenhos</a>
+                        </li>
+                        <li>
+                            <a href="#">Retratos</a>
+                        </li>
+                        <li>
+                            <a href="#">Cartoon</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear">
+            </div>
+        </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <h2>Sobre a loja</h2>
+            <section class="destaque">
+                <article class="noticia">
+                    <a href="">
+                        <img class="img-logo" src="imagens/Logo.png">
+                        <h3>Tatuagens! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum eaque hic odit ullam exercitationem laboriosam assumenda eum </h3>
+                    </a>
+                </article>
+            </section>
+            <section>
+                <h2>Ultimas notícias</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <a href="">
+                            <img src="imagens/Dona morte.png">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia itaque, corporis hic ipsum</h3>
+                            <button class="botao-verifica"> Escolher tattoo</button>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="">
+                            <img src="imagens/Dona morte.png">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia itaque, corporis hic ipsum</h3>
+                            <button class="botao-verifica"> Escolher tattoo</button>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="">
+                            <img src="imagens/Dona morte.png">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia itaque, corporis hic ipsum</h3>
+                            <button class="botao-verifica"> Escolher tattoo</button>
+                        </a>
+                    </article>
+                    <article class="noticia">
+                        <a href="">
+                            <img src="imagens/Dona morte.png">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia itaque, corporis hic ipsum</h3>
+                            <button class="botao-verifica"> Escolher tattoo</button>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
